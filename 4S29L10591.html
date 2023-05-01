@@ -9,7 +9,7 @@
         var currentUrl = window.location.href;
         var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
         if (hasTimestampParam) {
-          window.location.href = 'https://w-1257092744.cos-website.ap-guangzhou.myqcloud.com/?t=ZWni?_t=' + timestamp;
+          window.location.href = 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=oG45NgYLzEuKS-71wp6qZFQrAT_4dSpu&authKey=aKvEhRCaKo7MLTMMps7qpTF%2FED8tU4ojBOlvpFinUTs86RcJY%2BSuIhKZwRMENXO5&noverify=0&group_code=1070757304?_t=' + timestamp;
         } else {
           var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
           window.location.href = newUrl;
